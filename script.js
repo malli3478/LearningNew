@@ -1,7 +1,7 @@
 function evaluateQuiz() {
 	let score = 0;
-	let correct = '<span style="correct"> &check; (+4) </span>';
-	let incorrect = '<span style="incorrect"> &cross; (-1) </span>';
+	let correct = '<span class="correct"> &check; (+4) </span>';
+	let incorrect = '<span class="incorrect"> &cross; (-1) </span>';
 	if(q1r1.checked || q1r2.checked || q1r3.checked)
 		if (q1r3.checked == true) {
 			score += 4;
