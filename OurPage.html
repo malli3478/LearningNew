@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Our first page</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: rgb(0, 62, 62);
+			height: 100px;
+			font-size: x-large;
+		}
+		.hlinks{
+			text-decoration: none;
+			color: white;
+		}
+		li{
+			display: inline;
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		.mynav{
+			height: 80px;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			/* text-align: center; */
+			/* flex-direction: column; */
+		}
+		.left{
+			/* background-color: aqua; */
+			width: 49vw;
+			display: inline-block;
+		}
+		.right{
+			/* background-color: aquamarine; */
+			width: 50vw;
+			align-items: end;
+			display: inline-block;
+		}
+		#searchLabel{
+			display: none;
+		}
+		#search{
+			padding: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="left">
+				<ul class="mynav">
+					<li><a class="hlinks" href="#">Home</a></li>
+					<li><a class="hlinks" href="#">About</a></li>
+					<li><a class="hlinks" href="#">Contacts</a></li>
+				</ul>
+				<!-- <div>One</div> -->
+			</div>
+			<div class="right">
+				<span>Hello</span>
+				<div class="search" style="display: inline-block;">
+					<label id="searchLabel" for="search">Search</label>
+					<input id="search" type="text" >
+					<i class="fa-solid fa-magnifying-glass fa-bounce" style="color: #a4eae6;"></i>
+					<Button></Button>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<h1>This is a heading for Swati</h1>
+	</main>
+</body>
+</html>
